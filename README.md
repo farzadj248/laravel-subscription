@@ -1,2 +1,1 @@
-# laravel-subscription
-simple laravel-subscription
+# laravel-subscription-test

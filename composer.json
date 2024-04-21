@@ -1,0 +1,26 @@
+{
+    "name": "farzad/subscription",
+    "description": "laravel package subscription",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Farzad\\Subscription\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "farzad jafari",
+            "email": "farzadj248@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Farzad\\Subscription\\SubscriptionServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "illuminate/support": ">=v8.0.0"
+    }
+}
